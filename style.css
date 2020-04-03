@@ -32,66 +32,100 @@ body {
 
 /* ----- zde začni psát vlastní CSS ----- */
 
-.popis {
-    background-image: url(images/pozadi.jpg);
-    position: relative;
-}
-
-.text {
-
-    color: white;
-}
-
-.telefon {
-    position: absolute;
-    margin-left: 550px;
-}
-
-a {
+.menu li {
     display: inline-block;
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    border: white;
-    border-width: thin;
-    border-style: solid;
-    border-radius: 10px;
-    width: 20%;
-    text-align: center;
-}
-
-ul {
-    color: gray;
+    padding: 20px 30px;
+    font-size: 20px;
 }
 
 .vybrana {
     color: black;
+    font-weight: bold;
     text-transform: uppercase;
-}
-
-h1 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
 }
 
 .menu {
     margin: 0;
     padding: 0;
-    width: 960px;
-    text-align: center;
-    background-color: white;
-    display: inline-block;
 }
 
-.menu li {
-    display: inline-block;
-    padding: 20px 30px;
+.top {
+    background-image: url(images/pozadi.jpg);
+    position: relative;
+    min-height: 450px;
+    padding: 2rem 3rem;
 }
 
-header {
+.nadpis1 {
     margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 90px;
+}
+
+.popis {
+    color: white;
+    font-weight: 3OO;
+    font-size: 32px;
+    padding: 20px;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.tlacitko1 {
+    padding: 20px;
+    border: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #48418e;
+}
+
+.tlacitko2 {
+    padding: 20px;
+    border: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.telefon {
+    position: absolute;
     padding: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bottom {
+    display: flex;
+    padding: 30px;
+}
+
+.prvni, .druhy, .treti {
+    text-align: center;
+}
+
+.nadpis2 {
+    color: #48418e;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #48418e;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
